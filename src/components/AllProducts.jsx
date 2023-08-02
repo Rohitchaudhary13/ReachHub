@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import ProductCard from './ProductCard';
-import ImageBanner from './ImageBanner';
-import ProductFilter from './ProductFilter';
 
 const AllProducts = ({ products }) => {
   const [filteredProducts, setFilteredProducts] = useState(products);

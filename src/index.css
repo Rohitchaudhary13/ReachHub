@@ -63,22 +63,18 @@ button:focus-visible {
   .hidden {
     display: none;
   }
-  /* Other responsive styles go here */
 }
 
 /* For responsiveness */
 @media (max-width: 768px) {
   .relative {
-    /* Adjust height for mobile devices as needed */
     height: 300px;
   }
 
   .text-center {
-    /* Center text horizontally for mobile devices */
     text-align: center;
   }
 
-  /* Adjust font size and margin for mobile devices */
   .text-4xl {
     font-size: 2.5rem;
   }

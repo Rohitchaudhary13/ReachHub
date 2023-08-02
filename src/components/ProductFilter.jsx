@@ -84,9 +84,6 @@ const ProductFilter = ({ products, setFilteredProducts }) => {
       </div>
       </div>
     <div className='flex items-center gap-4 '>
-      {/* <label htmlFor="sortOption" className="block text-sm font-medium  text-gray-700">
-        Sort By:
-      </label> */}
       <select
         id="sortOption"
         className="mt-1 rounded-full block w-full pl-3 pr-10 py-2 text-base bg-gray-100 border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"

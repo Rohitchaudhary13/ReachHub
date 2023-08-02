@@ -8,14 +8,12 @@ const AnnouncementBar = () => {
     { value: 'ENG', label: 'ENG' },
     { value: 'FRA', label: 'FRA' },
     { value: 'ESP', label: 'ESP' },
-    // Add more language options here
   ];
 
   const countryOptions = [
     { value: 'USA', label: 'USA' },
     { value: 'CAN', label: 'Canada' },
     { value: 'UK', label: 'UK' },
-    // Add more country options here
   ];
 
   return (

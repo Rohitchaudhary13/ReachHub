@@ -65,19 +65,15 @@ function App() {
         <AnnouncementBar />
         <div className="mx-auto w-11/12">
           <Navbar />
-          
           <main>
             <Routes>
-              {/* Render the ProductList component for the root path */}
               <Route path="/" element={<ProductList products={products} />} />
-              {/* Render the ProductDetails component for the "/product/:id" path */}
               <Route path="/product/:id" element={<ProductDetails products={products} />} />
               <Route path="/products" element={<AllProducts products={products} />} />
               <Route path="/adidas" element={<AllProducts products={products} query="adidas" />} />
               <Route path="/puma" element={<AllProducts products={products} query="puma" />} />
               <Route path="/nike" element={<AllProducts products={products} query="nike" />} />
             </Routes>
-            
           </main>
         </div>
       </Router>

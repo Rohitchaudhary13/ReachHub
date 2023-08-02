@@ -8,9 +8,6 @@ const ProductCard = ({ product, rating }) => {
 
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating - fullStars >= 0.5;
-
-  
-
   const starIcons = [];
 
   for (let i = 0; i < fullStars; i++) {
@@ -37,8 +34,6 @@ const ProductCard = ({ product, rating }) => {
       .toLowerCase()
       .replace(/(^|\.\s+)([a-z])/g, (match, p1, p2) => p1 + p2.toUpperCase());
   };
-
-  
 
   return (
     <div className="relative">
@@ -68,7 +63,6 @@ const ProductCard = ({ product, rating }) => {
 
       <p className='break-words'>{toSentenceCase(product.description)}</p>
       <div className="flex items-center">
-        {/* Render star icons */}
         {starIcons}
         <p className="ml-2">(210)</p>
       </div>
@@ -89,5 +83,3 @@ const ProductCard = ({ product, rating }) => {
 };
 
 export default ProductCard;
-
-// bg-[#003d2a]
